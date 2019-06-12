@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href= "catalog_16033180.css"?>
+<!DOCTYPE Estore SYSTEM "catalog_16033180.dtd">
+<Estore>
+<title>Shah Electorics Store</title>
+<address>New Colony, Sukedhara, Kathmandu, Nepal</address>
+<contact>CALL US @ +9774444444, +977984141414</contact>
+<URL>VIST US @ www.shahelectronics.com</URL>
+<items>
+	<slogan>BEST DEALS BEST PRODUCTS</slogan>
+	<CPU>
+		<heading>CPU Section</heading>
+        <CPUitems id="id_1" delivery="Free">
+          	<subheading>ITEM NUMBER 1</subheading>
+          	<name>Name: Intel Core i9-7920X</name>
+          	<description>Description: Best for gaming</description>
+          	<price>Buy At: $1000</price>
+          	<quantity>Available Quantity: 12</quantity>
+          	<item>Monitor: BenQ EX3501R</item>
+          	<item>Keyboard: Corsair K95 RGB Platinum</item>
+          	<item>Hardrive: WD Blue 1TB</item>
+          	<item>Speaker: Logitech X-540 5.1</item>
+        </CPUitems>
+        <CPUitems id="id_2" delivery="Express">
+          	<subheading>ITEM NUMBER 2</subheading>
+          	<name>Name: AMD Ryzen 5 2600X</name>
+          	<description>Description: One of the best of AMDs</description>
+          	<price>Buy At: $230</price>
+          	<quantity>Available Quantity: 9</quantity>
+          	<item>Monitor: Alienware AW3418DW</item>
+          	<item>Keyboard: Patriot Viper V770</item>
+          	<item>Hardrive: Seagate Barracuda 1TB</item>
+          	<item>Speaker: Logitech Z906 5.1</item>
+        </CPUitems>
+	</CPU>
+	<Monitor>
+		<heading>Monitor Section</heading>
+		<Monitoritems id="id_3" CPUitemsID="id_1" type="LED">
+			<subheading>ITEM NUMBER 3</subheading>
+			<name>Name: BenQ EX3501R</name>
+			<description>Description: Best for gaming</description>
+			<price>Buy At: $850</price>
+			<quantity>Available Quantity: 1</quantity>
+			<manufacturer>Manufacturer: BenQ</manufacturer>
+			<resolution>Resoultion: 3440&#215;1440</resolution>
+			<dimension>Dimension: 35 inch</dimension>
+			<color>Color: Black</color>
+		</Monitoritems>
+		<Monitoritems id="id_4" CPUitemsID="id_2" type="LCD">
+			<subheading>ITEM NUMBER 4</subheading>
+			<name>Name: Alienware AW3418DW</name>
+			<description>Description: Best for gaming</description>
+			<price>Buy At: $1150</price>
+			<quantity>Available Quantity: 1</quantity>
+			<manufacturer>Manufacturer: Alienware</manufacturer>
+			<resolution>Resolution: 3440&#215;1440</resolution>
+			<dimension>Dimension: 34 inch</dimension>
+			<color>Color: Greyish</color>
+			<speakerinfo>Speaker: Logitech Z906 5.1</speakerinfo>
+		</Monitoritems>
+	</Monitor>
+	<Speaker>
+		<heading>Speaker Section</heading>
+		<Speakeritems id="id_5" CPUitemsID="id_1">
+			<subheading>ITEM NUMBER 5</subheading>
+			<name>Name: Logitech X-540 5.1</name>
+          	<description>Description: Surround Sound Speaker System</description>
+          	<price>Buy At: $449</price>
+          	<quantity>Available Quantity: 1</quantity>
+		</Speakeritems>
+		<Speakeritems id="id_6" CPUitemsID="id_2">
+			<subheading>ITEM NUMBER 6</subheading>
+			<name>Name: Logitech Z906 5.1</name>
+          	<description>Description: Surround Sound Speaker System - THX, Dolby Digital and DTS Digital Certified</description>
+          	<price>Buy At: $300</price>
+          	<quantity>Available Quantity: 1</quantity>
+		</Speakeritems>
+	</Speaker>
+	<Mouse>
+		<heading>Mouse Section</heading>
+		<Mouseitems id="id_7" CPUitemsID="id_1">
+			<subheading>ITEM NUMBER 7</subheading>
+			<name>Name: SteelSeries Rival 600</name>
+          	<description>Description: Lift off distance detection, customizable weight, 60-million click mechanical switches</description>
+          	<price>Buy At: $80</price>
+          	<quantity>Available Quantity: 1</quantity>
+		</Mouseitems>
+		<Mouseitems id="id_8" CPUitemsID="id_2">
+			<subheading>ITEM NUMBER 8</subheading>
+			<name>Name: Corsair Dark Core RGB SE</name>
+          	<description>Description: Qi wireless charging, Interchangeable side grip, Omron switches, Fully programmable buttons, Dynamic multi-color 3-zone backlighting</description>
+          	<price>Buy At: $90</price>
+          	<quantity>Available Quantity: 1</quantity>
+		</Mouseitems>
+	</Mouse>
+	<Hard_Disk>
+		<heading>Hard Disk Section</heading>
+		<Hard_Diskitems id="id_9" CPUitemsID="id_1">
+			<subheading>ITEM NUMBER 9</subheading>
+			<name>Name: WD Blue 1TB</name>
+          	<description>Description: Calculates optimum seek speeds to lower power consumption, noise and vibration</description>
+          	<price>Buy At: $44</price>
+          	<quantity>Available Quantity: 1</quantity>
+		</Hard_Diskitems>
+		<Hard_Diskitems id="id_10" CPUitemsID="id_2">
+			<subheading>ITEM NUMBER 10</subheading>
+			<name>Name: Seagate Barracuda 1TB</name>
+          	<description>Description: The thinnest and highest-capacity 2.5-Inch Hard Drive available.</description>
+          	<price>Buy At: $46</price>
+          	<quantity>Available Quantity: 1</quantity>
+		</Hard_Diskitems>
+	</Hard_Disk>
+	<Keyboard>
+		<heading>Keyboard Section</heading>
+		<Keyboarditems id="id_11" CPUitemsID="id_1">
+			<subheading>ITEM NUMBER 11</subheading>
+			<name>Name: Corsair K95 RGB Platinum</name>
+          	<description>Description: Expensive and large footprint</description>
+          	<price>Buy At: $145</price>
+          	<quantity>Available Quantity: 1</quantity>
+		</Keyboarditems>
+		<Keyboarditems id="id_12" CPUitemsID="id_2">
+			<subheading>ITEM NUMBER 12</subheading>
+			<name>Name: Patriot Viper V770</name>
+          	<description>Description: The Patriot Viper V770 replaces the G.Skill Ripjaws KM780 RGB as the best overall gaming keyboard.</description>
+          	<price>Buy At: $117</price>
+          	<quantity>Available Quantity: 1</quantity>
+		</Keyboarditems>
+	</Keyboard>
+</items>
+<footer> CopyRight &#169; prayash.shah@gmail.com </footer>
+</Estore>

@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- Linking CSS--><link type="text/css" href="../CSS/styles.css" rel="stylesheet"/>
+<!-- Linking JavaScript--><script type="text/javascript" src="../JavaScript/script.js"></script>
+<title>Sign Up</title>
+</head>
+<body>
+<div id="container">
+<header>
+    <div class="container">
+         <div class="logo">
+            <img src="../Images/red.jpg" id="logo">
+         </div>
+		 <div class="nav">
+		 <ul>
+		 <li><a href="index1.html">Home</a></li>
+		 <li><a href="about.html">About Us</a></li>
+		 <li><a href="team.html">Team And Stats</a></li>
+		 <li><a href="signup.html">Sign Up</a></li>
+		 <li><a href="contact.html">Contact Us</a></li>
+		 </ul>
+		 </div>
+   </div>
+</header>
+<div id ="banner">
+  <img id="myPhoto" src="../Images/s6.jpg" alt="NBA"/>
+</div>
+<!-- Creating a form for sign up-->
+<div id="content">
+<form name="signup" onsubmit="return validateForm()" method="post">
+		<h2><center>Registration Form</center></h2>
+		<b>
+			Name: <br>
+				  <input type="text" name="Name" placeholder="Input your name here..."/>
+			<br><br>
+			Address: <br>
+					<input type="text" name="Address" placeholder="Input your address here..."/>
+			<br><br>
+			Phone No.: <br>
+					<input type="text" name="Phone_Number" placeholder="Your phone Number..."/>
+			<br><br>
+			Gender: <input type="radio" name="Gender" value="Male"> Male
+					<input type="radio" name="Gender" value="Female"> Female
+			<br><br>
+			Hobbies:<input type="checkbox" name="Sports" value="on"> Sports
+					<input type="checkbox" name="Music" value="on"> Music
+					<input type="checkbox" name="Reading" value="on"> Reading
+					<input type="checkbox" name="Travelling" value="on"> Travelling
+					<input type="checkbox" name="Singing and Dancing" value="on"> Dancing
+					<input type="checkbox" name="Others" value="on"> Others
+			<br><br>
+			Qualifications:	<select name="dropdown">
+								<option value="Choose" selected>Choose one...</option>
+								<option value="SLC">SLC</option>
+								<option value="Bachelors">Bachelors</option>
+								<option value="Bachelors">Associate</option>
+								<option value="Masters">Masters</option>
+								<option value="Bachelors">Doctrate</option>
+							</select>
+			<br><br>
+			Describe yourself: <br>
+					<textarea rows="5" cols="50" name="description" placeholder ="Describe yourself here..."></textarea>
+			<br><br>
+<!-- Creating submit and reset button for the form-->
+					<input type="Submit" name="Submit" value="Submit" />
+					<input type="Reset" name="Reset" value="Reset" />
+				
+				</b>	
+		</form>
+</div>
+<footer>
+    <div class="container">
+<div class="footer">Copyright &copy; 2017 NBA Media Ventures, LLC. All rights reserved.</div>
+		     <div class="social">
+			 <ul>
+			 <li><a href="https://www.facebook.com" target="_blank"><img src="../Images/fb.png" style=" height:40px; width:40px"alt="facebook"></a></li>
+			 <li><a href="https://www.twitter.com" target="_blank"><img src="../Images/tw.png" style=" height:40px; width:40px"alt="twitter"></a></li>
+			 <li><a href="https://www.instagram.com/" target="_blank"><img src="../Images/insta.png" style=" height:40px; width:40px"alt="instagram"></a></li>
+			 <li><a href="https://www.pinterest.com/" target="_blank"><img src="../Images/pintrest.png" style=" height:40px; width:40px"alt="pintrest"></a></li>
+			 <li><a href="https://plus.google.com/" target="_blank"><img src="../Images/go.png" style=" height:40px; width:40px"alt="google+"></a></li>
+			 <li><a href="https://www.youtube.com" target="_blank"><img src="../Images/youtube.png" style=" height:40px; width:40px"alt="youtube"></a></li>
+			 </ul>
+			 </div>
+			 </footer>
+</div>
+</div>
+</body>
+</html>

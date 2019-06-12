@@ -1,0 +1,38 @@
+<!ELEMENT Estore (title, address, contact, URL, items, footer)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT URL (#PCDATA)>
+<!ELEMENT items (slogan, CPU, Monitor,Speaker, Mouse, Hard_Disk, Keyboard)>
+<!ELEMENT slogan (#PCDATA)>
+<!ELEMENT CPU (heading, CPUitems+)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT CPUitems (subheading, name, description, price, quantity, item+)>
+<!ATTLIST CPUitems id ID #REQUIRED delivery (Free|Express) #REQUIRED>
+<!ELEMENT subheading (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT Monitor (heading, Monitoritems+)>
+<!ELEMENT Monitoritems (subheading, name, description, price, quantity, manufacturer, resolution, dimension, color, speakerinfo?)>
+<!ATTLIST Monitoritems id ID #REQUIRED CPUitemsID IDREF #IMPLIED type (LED|LCD|CRT) #REQUIRED>
+<!ELEMENT manufacturer (#PCDATA)>
+<!ELEMENT resolution (#PCDATA)>
+<!ELEMENT dimension (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT speakerinfo (#PCDATA)>
+<!ELEMENT Speaker (heading, Speakeritems+)>
+<!ELEMENT Speakeritems (subheading, name, description, price, quantity)>
+<!ATTLIST Speakeritems id ID #REQUIRED CPUitemsID IDREF #IMPLIED>
+<!ELEMENT Mouse (heading, Mouseitems+)>
+<!ELEMENT Mouseitems (subheading, name, description, price, quantity)>
+<!ATTLIST Mouseitems id ID #REQUIRED CPUitemsID IDREF #IMPLIED>
+<!ELEMENT Hard_Disk (heading, Hard_Diskitems+)>
+<!ELEMENT Hard_Diskitems (subheading, name, description, price, quantity)>
+<!ATTLIST Hard_Diskitems id ID #REQUIRED CPUitemsID IDREF #IMPLIED>
+<!ELEMENT Keyboard (heading, Keyboarditems+)>
+<!ELEMENT Keyboarditems (subheading, name, description, price, quantity)>
+<!ATTLIST Keyboarditems id ID #REQUIRED CPUitemsID IDREF #IMPLIED>
+<!ELEMENT footer (#PCDATA)>
